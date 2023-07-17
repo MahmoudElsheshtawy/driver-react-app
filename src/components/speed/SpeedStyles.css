@@ -1,0 +1,34 @@
+.speed{
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/speed-bg.jpg)no-repeat center center/cover;
+
+}
+.speed .contanier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+
+}
+.speed .contanier .top{
+    margin-top: 70px;
+    color: aliceblue;
+}
+.speed .contanier .button{
+    margin-bottom: 40px;
+    width: 50%;
+   z-index: 10;
+    
+    
+}
+
+
+
+
+
+
+
+

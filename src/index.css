@@ -1,13 +1,63 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Nunito:wght@200;300;400;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,500&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+:root{
+  --primary-color:#171a20cc;
+}
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  
+}
+body {
+
+  font-family:'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul{
+list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+  }
+h1{
+  font-size: 3.5rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
+}
+
+.btn{
+margin: .5rem;
+padding: .7rem; 
+font-size: .8rem;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 25px;
+border: none;
+background: rgba(255, 255, 255, .1);
+width: 90%;
+color: #b5b5b5;
+cursor: pointer;
+/* transition: calc(.5s); */
+/* z-index: 10; */
+}
+.btn-dark {
+  background: rgba(0, 0, 0, 0.9);
+  /* z-index: 10; */
+}
+.btn:hover{
+  background: rgba(72, 70, 70, 0.8); 
+}
+.btn-dark:hover{
+  background: rgba(126, 123, 123, 0.8);
 }
