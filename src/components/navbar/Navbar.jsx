@@ -2,7 +2,7 @@ import  React,{ useState } from 'react'
 import './NavbarStyles.css'
 import {FaBars,FaTimes} from 'react-icons/fa'
 import { GiCarWheel } from 'react-icons/gi'
-import { FaFacebookF,FaInstagram} from 'react-icons/fa'
+
 import { Link } from 'react-scroll'
 
 
